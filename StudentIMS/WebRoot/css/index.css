@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 1000px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#EDEADF));
+	/*谷歌*/
+}
+
+#headerline {
+	width: 100%;
+	height: 40px;
+	background: #700005;
+	padding-left: 10%;
+}
+#headerbox img{width: 350px;height: 80px;position: relative;top: 10px;left: 0px;}
+#bg{width: 100%;height:100%;opacity:0.3;filter:alpha(opacity=80); }
+
+#subNav li {
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+
+#subNav a {
+	float: left;
+	display: block;
+	padding: 2px 6px 2px 6px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #CCCCCC;
+	font-family: '微软雅黑';
+	text-decoration: none;
+}
+
+#subNav a:hover {
+	color: white;
+	font-weight: 600;
+}
+
+#headerbox {
+	width: 100%;
+	height: 100px;
+	margin:0;
+	background: #8F000B
+}
+
+#sos {
+	height: 30px;
+	width: 185px;
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 5px;
+}
+
+#butsos {
+	position: relative;
+	left: 60%;
+	top: -25px;
+}
+
+#hb {
+	width: 225px;
+	height: 25px;
+	margin: 25px 1px 0 0;
+	float: right;
+}
+
+#hb input {
+	margin: 0;
+	value: "检索";
+	width: 152px;
+	height: 25px;
+	position: relative;
+	left: 10px;
+	top: -24px;
+}
+
+.nav-box {
+	width: 1920px;
+	height: 50px;
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0 auto;
+	margin-top: 5px;
+	position: relative;
+	top: -5px;
+}
+
+.nav-box .nav {
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.nav-box .nav ul li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: 10%;
+}
+#heaoo{padding-left:10% ;}
+#heaee{padding-right:10%;}
+
+.nav-box .nav ul li a {
+	display: block;
+	line-height: 50px;
+	padding: 0 33px;
+	font-size: 20px;
+	font-weight:500;
+	color: #1F1415;
+	font-family: '微软雅黑';
+	text-decoration: none;
+	background: #FFFFFF;
+}
+
+.nav-box .nav ul li a:hover {
+	background: #8F000B;
+	color: #CCCCCC;
+}
+
+.nav-box .nav ul li a i {
+	display: inline-block;
+	/**/
+	width: 0;
+	height: 0;
+	margin-left: 9px;
+}
+
+.nav-box .nav ul li a i.top {
+	border-color: transparent transparent #fff transparent;
+}
+
+.nav-box .nav ul li .con {
+	width: 580px;
+	height: 260px;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	border: 1px solid #E2E2E2;
+	display: none;
+}
+
+.nav-box .nav ul li .con .content {
+	float: left;
+	margin: 16px 11px;
+}
+
+#hb a img {
+	cursor: pointer;
+}
+
+#biaoti img {
+	width: 100%;
+	height: 580px;
+	margin-top: 5px;
+	position: relative;
+	top: -10px;
+}
+#news{cursor: pointer;position: relative;top: -62px;}
+#biaoti p {
+	font-family: "黑体", "宋体";
+	font-size: 36px;
+	text-align: center;
+}
+
+#biaoti .bg {
+	position: relative;
+	z-index: 1;
+	height: 58px;
+	background: #252525;
+	filter: alpha(opacity=50);
+	opacity: .5;
+	width: 980px;
+	top: -67px;
+	left: 460px;
+	margin: 0 auto;
+}
+
+.text {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #FEFFFF;
+	line-height: 58px;
+	padding-left: 30px;
+}
+
+#liuyan {
+	border-bottom: 1px solid #ccc;
+	height: 200px;
+}
+
+.bottem1 {
+	width: 800px;
+	height: 300px;
+	float: left;
+	margin: 0 0 0 50px;
+	position: relative;
+	left: 180px;
+	top: 100px;
+}
+
+.bottem1 ul li {
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: 400;
+	color: #59585B;
+	line-height: 30px;
+}
+.bottem1 ul li:hover{display:block;line-height: 45px;font-weight: 600;color: #E2E2E2;cursor: pointer;}
+.bottem2 {
+	width: 600px;
+	height: 300px;
+	float: left;
+	margin: 0 0 0 50px;
+	position: relative;
+	right: 180px;
+	top: 100px;
+}
+
+.bottem2 ul li {
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #59585B;
+	line-height: 30px;
+}
+.bottem2 ul li:hover{display:block;line-height: 45px;font-weight: 600;color: #E2E2E2;cursor: pointer;}
+.bottem1 ul .shuoshuo {
+	color: #58545B;
+	font-weight: bold;
+}
+.bottem2 ul .shuoshuo {
+	color: #58545B;
+	font-weight: bold;
+}
+
+.bottem2 {
+	margin: 0 50px 0 0;
+	float: right;
+}
+
+#footer {
+	margin: auto;
+	padding-top: 10px;
+	width: 100%;
+	height: 35px;
+	color: #CCCCCC;
+	font-size: 18px;
+	text-align: center;
+	background: #000000;
+	position: relative;
+	bottom: 40px;
+}
+
+#bottom {width:100%;height: 400px;background:#6D0E0C;}

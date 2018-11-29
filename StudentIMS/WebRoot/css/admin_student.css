@@ -1,0 +1,52 @@
+		body{
+			margin:0;
+			padding:0;
+			background: #FFFFFF;
+			background: url(../img/back1.jpg) no-repeat -2px -2px ;background-size: 100% 1300;
+			background-size: auto 1920px;
+			font-family: "微软雅黑","宋体";
+			}
+		p{
+			display: block;
+			margin-bottom: 30px;
+			font-size:25px;
+			color: #FEFFFF;
+			text-align:center;
+			}
+		table {
+			border: 1px solid #700005;
+			border-radius: 8px;
+			width: 1300px;
+			background: #FFFFFF
+			filter: alpha(opacity=50);
+			/* ie 有效*/
+			-moz-opacity: 0.7;
+			/* Firefox  有效*/
+			opacity: 0.7;
+			/* 通用，其他浏览器  有效*/			
+			margin:0 auto;
+		}
+		
+		td, th {
+			height: 30px;
+			border-right: #FFFFFF 1px solid;
+			border-bottom: #FFFFF 1px solid;
+			border-radius: 5px;
+			background: #252525;
+			text-align:center;
+			color: #fff;
+		}
+		td:hover{
+			line-height:40px ;
+			font-weight: 400;
+		}
+		th:hover{
+			line-height:40px ;
+			font-weight: 400;
+		}
+		a{
+			color: #fff;
+			font-size: 18px;
+		}
+		
+		#table1{margin-top:30px;margin-bottom:150px;}

@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "微软雅黑", "宋体";
+	color: #111;
+	font-size: 18px;
+	background: url(../img/bg1.jpg) no-repeat -2px -2px;
+}
+#mainbox{
+	border: 1px solid #700005;
+	border-radius: 8px;
+	width: 550px;
+	height: 340px;
+	color: #FFFFFF;
+	margin: 200px auto 0;
+	background: #252525;
+	filter: alpha(opacity=50);
+	/* ie 有效*/
+	-moz-opacity: 0.7;
+	/* Firefox  有效*/
+	opacity: 0.7;
+	/* 通用，其他浏览器  有效*/
+}
+}

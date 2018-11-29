@@ -1,0 +1,38 @@
+#box1 {
+	position: absolute;
+	left: 1790px;
+	top: 200px;
+	width: 110px;
+	height: 280px;
+	border: 1px soid #ccc;
+	border-radius: 5px;
+	background: #8F000B;
+	width: 110px;
+	top: 406;
+}
+
+#box2 {
+	width: 95px;
+	height: 150px;
+	margin: 13px auto;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #E0D9E5;
+	list-style: none;
+	border: 1px solid #ccc;
+}
+
+#box2 a img {
+	display: block;
+	margin: 6px auto;
+	cursor:pointer;
+}
+#box2 a img:hover{width:85px;height:30px;}
+
+#tuo {
+	width: 90px;
+	height: 90px;
+	display: block;
+	margin: 0 auto;
+	cursor:pointer;
+}

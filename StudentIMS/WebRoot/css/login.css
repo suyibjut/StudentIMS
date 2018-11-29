@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑", "宋体";
+	color: #111;
+	font-size: 18px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F9FB2E), to(#fafafa));
+	background: url(../img/tu1.jpg) no-repeat -2px -2px;
+	background-size: 100% 100%;
+	/*谷歌*/
+}
+
+#sector {
+	border: 1px solid #700005;
+	border-radius: 8px;
+	width: 550px;
+	height: 340px;
+	margin: 200px auto 0;
+	background: #252525;
+	filter: alpha(opacity=50);
+	/* ie 有效*/
+	-moz-opacity: 0.7;
+	/* Firefox  有效*/
+	opacity: 0.7;
+	/* 通用，其他浏览器  有效*/
+}
+
+.nav {
+	width: 550px;
+	/*background: #fff;*/
+	height: 340px;
+}
+
+h3 {
+	display: block;
+	padding: 20px 60px;
+	font-size: 18px;
+	color:#FFFFFF;
+	font-weight: 600;
+	line-height: 32px;
+}
+
+p {
+	margin: 25px 60px;
+}
+
+.input-text {
+	border: 1px #ccc solid;
+	height: 38px;
+	width: 430px;
+	background: url(../img/ico-user.png) no-repeat 0 -2px;
+	padding-left: 50px;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-family: "微软雅黑", "宋体";
+}
+
+.input-pwd {
+	background: url(../img/ico-pwd.png) no-repeat -2px -2px;
+}
+
+.input-btn {
+	display: block;
+	width: 430px;
+	height: 40px;
+	border: 0;
+	background: #9A0002;
+	color: #fff;
+	font-family: "微软雅黑", "宋体";
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	border-radius: 5px;
+}
+
+.input-btn:hover {
+	background: #085BC3;
+	cursor: pointer;
+}
+
+h6 {
+	text-align: right;
+}
+
+h6 a {
+	color: #FFFFFF;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: normal;
+	margin-right: 60px;
+}
+
+h6 a:hover {
+	color: #C81D1F;
+}
+P img{position: relative;top: ;}
+.btn {
+	cursor: pointer;
+}
